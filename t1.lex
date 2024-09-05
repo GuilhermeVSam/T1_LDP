@@ -11,3 +11,4 @@
 ^[0-9]{13}$ { System.out.println("ISBN"); }
 ^[0-9]{1,3}[\.\]][0-9]{1,3}[\.\]][0-9]{1,3}[\.\]][0-9]{1,3}$ { System.out.println("IP"); }
 ^[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?$ { System.out.println("Números Reais"); }
+^".*"$ { System.out.println("String"); }

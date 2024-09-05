@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        String source = "(12.3 + 435) * 3";
+        String source = args[0];
 
         Lexer lex = new Lexer(source);
 
