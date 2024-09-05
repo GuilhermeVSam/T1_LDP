@@ -10,4 +10,4 @@
 ^[A-Z]{3}\d[A-Z]\d\d$ { System.out.println("Placa Mercosul"); }
 ^[0-9]{13}$ { System.out.println("ISBN"); }
 ^[0-9]{1,3}[\.\]][0-9]{1,3}[\.\]][0-9]{1,3}[\.\]][0-9]{1,3}$ { System.out.println("IP"); }
-^\d+([.]\d+)?([.][E][\^]\d+)?([.]\d+)?$ { System.out.println("Números Reais"); }
+^[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?$ { System.out.println("Números Reais"); }
