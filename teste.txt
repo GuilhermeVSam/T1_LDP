@@ -3,7 +3,7 @@ email@email.com
 https://twitter.com
 0000-0000-0000-0000
 0000-0000
-AAA 0AA ERRO
+AAA0A00
 0000000000000
 192.168.0.1
-10.0 ERRO
+10.0
